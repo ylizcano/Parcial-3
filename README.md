@@ -25,10 +25,11 @@ make all
 ```
 Mediante make se  ejecuta una regla llamada "all" desde un archivo en el directorio actual llamado "Makefile". Esta regla  llama al compilador para que compile el código fuente en binarios.
 
-## Análisis Resultados
+## Ejecución del programa
 
-- Para un mejor rendimiento se le pueden indicar las variables a Cython para que pueda generar codigo mas optimo,
-estas pueden ser declaradas de tres formas diferentes: **def, cpdef y cdef**.
-- El archivo setup.py es necesario para generar la extensión de cython al compilarlo,
-luego de esto se observa que el tiempo de respuesta de cython es mas optimo que el de python.
+```
+python3 ejecutar.py
+```
+Mediante este comando corremos el proyecto y se da por finalizado el programa. 
+
 
