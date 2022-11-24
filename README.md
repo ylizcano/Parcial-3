@@ -1,4 +1,4 @@
-## Introducción
+## Comparativa de rendimiento Cython vs Python
 **Cython**
 - Es un lenguaje de programación que combina Python con el sistema
   de tipos estáticos de C y C++.
