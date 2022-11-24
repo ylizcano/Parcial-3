@@ -24,5 +24,5 @@ for i in range(30):
 	Canivales_C.ejecutar_Cavernicola_C()
 	finalCy = time.time() - inicioCy
 	
-	with open("Cavernicola.csv","a") as archivo:
+	with open("cargas.csv","a") as archivo:
 		archivo.write(formato_datos.format(finalPy,finalCy))
