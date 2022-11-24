@@ -18,14 +18,13 @@ pip install cython
 python3 setup.py build_ext --inplace
 ```
 
-## Resultados
+## Contrucción del proyecto
+Mediante la terminal ejecutamos:
 ```
-yeison@master:~/Documentos/cythonTAller$ python3 setup.py build_ext --inplace
-yeison@master:~/Documentos/cythonTAller$ python3 perfomance.py
-Tiempo total de python:  1.83044
-Tiempo total cython  0.07428
+make all 
+```
+Mediante make se  ejecuta una regla llamada "all" desde un archivo en el directorio actual llamado "Makefile". Esta regla  llama al compilador para que compile el código fuente en binarios.
 
-```
 ## Análisis Resultados
 
 - Para un mejor rendimiento se le pueden indicar las variables a Cython para que pueda generar codigo mas optimo,
