@@ -19,6 +19,13 @@ python3 setup.py build_ext --inplace
 ```
 
 ## Contrucción del proyecto
+El proyecto está conformado con dos algoritmos para evaluar su rendimiento, haciendo una comparativa entre Python y Cython.
+En las carpetas ```Algoritmo_1``` y ```Algoritmo_2``` se encuentran los ficheros: 
+```Ficheros *.py```
+```Ficheros *.pyx```
+```Ficheros *.csv```
+```Makefile```
+
 Mediante la terminal ejecutamos:
 ```
 make all 
